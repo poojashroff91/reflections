@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Comparing the two files narrowed the search space. It was easy to find then the bug caused due to a typo in the new file.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You can easily revert changes from a new non working version to a previous working version. This allows to you to easily change and experiment around with things to find out what works best. It also allows you to parallely work on independent modules of the project easily.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros of manually saving are that you have more control over the number of versions being created. Also, it helps commits to be not too big or too small. Just right. The con is that you may have human error introduced if you don't save properly after writing a lot of code.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because the version control systems that allow multiple files to be changed are expecting the users to be mainly programmers and that is why it is much easier to commit multiple files. However, Google Docs is more of an all purpose version control where each file is separate entity and changes to it don't affect the other files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Using git log we get all the history of commits made to this file. Comparing two commits can give the exact difference between the file versions and detail the history of the files.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You can be confident that you haven't ruined the application completely, you can always go back to the original working application if the changes indeed do break something.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To practice lesson 1 and also to enable opening sublime directly from the Terminal.
