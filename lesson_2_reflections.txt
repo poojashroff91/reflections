@@ -11,11 +11,17 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	Branches help in keeping history organized if you want to make some new change and include it only if the change works. This new change might require lot of files to be changed. Reverting this type of change can be painful. So a branch would be a better option.
 
 How do the diagrams help you visualize the branch structure?
+	Diagrams easily tell which of the commits can be accessed by which branches. They also allow us to identify unreachable commits easily and create new branches out of them.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	It results in adding pieces of code from both the branches. In case of conflict, the original file is used to decide whether the code will be retained or removed. The way it is represented in the diagram also makes sense because the new branch is now a single branch as opposed to the two it was in earlier.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+Doing merges manually is tedious when parts of code do not conflict with each other. In this case automatic merging makes sense. But if two people change the same part of the code, git's automatic merging will fail and the branches will have a merge conflict which will be needed to resolved manually.
+
+
